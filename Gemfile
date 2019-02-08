@@ -17,4 +17,6 @@ group :test do
   gem 'puppet-lint-classes_and_types_beginning_with_digits-check'
   gem 'puppet-lint-unquoted_string-check'
   gem 'puppet-lint-resource_reference_syntax'
+
+  gem 'coveralls', require: false
 end

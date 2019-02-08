@@ -1,6 +1,7 @@
 # dovecot puppet module
 
 [![Build Status](https://travis-ci.org/cirrax/puppet-dovecot.svg?branch=master)](https://travis-ci.org/cirrax/puppet-dovecot)
+[![Coverage Status](https://coveralls.io/repos/github/cirrax/puppet-dovecot/badge.svg?branch=master)](https://coveralls.io/github/cirrax/puppet-dovecot?branch=master)
 [![Puppet Forge](https://img.shields.io/puppetforge/v/cirrax/dovecot.svg?style=flat-square)](https://forge.puppetlabs.com/cirrax/dovecot)
 [![Puppet Forge](https://img.shields.io/puppetforge/dt/cirrax/dovecot.svg?style=flat-square)](https://forge.puppet.com/cirrax/dovecot)
 [![Puppet Forge](https://img.shields.io/puppetforge/e/cirrax/dovecot.svg?style=flat-square)](https://forge.puppet.com/cirrax/dovecot)
