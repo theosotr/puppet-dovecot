@@ -1,6 +1,11 @@
-# First line of spec/spec_helper.rb
-require 'puppetlabs_spec_helper/module_spec_helper'
 require 'coveralls'
+
+Coveralls.wear! do
+  track_files '**/*.pp'
+  add_filter '/spec/fixtures'
+end
+
+require 'puppetlabs_spec_helper/module_spec_helper'
 
 RSpec.configure do |c|
   c.after(:suite) do
@@ -8,8 +13,5 @@ RSpec.configure do |c|
   end
 end
 
-Coveralls.wear! do
-  add_filter '/sepc/fixtures/modules/stdlib/'
-end
 
 
